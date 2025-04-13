@@ -1,0 +1,4 @@
+prometheus-client
+python-dotenv
+# Install nexia from the specific branch
+git+https://github.com/bdraco/nexia.git@ux360_state_reporting#egg=nexia
