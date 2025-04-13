@@ -2,7 +2,7 @@
 Prometheus exporter for Nexia thermostats
 
 ## Status
-This is a work in progress, and tied to a specific branch of the bdraco/nexia library: https://github.com/bdraco/nexia/tree/ux360_state_reporting/nexia, corresponding to the WIP PR https://github.com/bdraco/nexia/pull/111 for my thermostat, the UX360.
+This is a work in progress, and tied to a specific branch of the bdraco/nexia library: https://github.com/bdraco/nexia/tree/ux360_state_reporting/nexia, corresponding to the WIP PR https://github.com/bdraco/nexia/pull/111 for my thermostat, the UX360. It might work for others but right now I only know it works for mine. Future steps here would be to get that PR merged in the bdraco/nexia project and then add more metrics based on normal functions exposed by the library since the UX360 seems to do things differently.
 
 ## Example Prometheus metrics
 ```
