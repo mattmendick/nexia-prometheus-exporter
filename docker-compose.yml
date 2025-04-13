@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   nexia-exporter:
-    image: ghcr.io/mattmendick/nexia-prometheus-exporter:latest
+    image: mattmendick/nexia-prometheus-exporter:latest
     container_name: nexia-prometheus-exporter
     environment:
       - NEXIA_USERNAME=${NEXIA_USERNAME}
