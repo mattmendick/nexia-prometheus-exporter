@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/53e29467-9866-42fa-baaf-2809bd502531)
+
 # nexia-prometheus-exporter
 Prometheus exporter for Nexia thermostats
 
