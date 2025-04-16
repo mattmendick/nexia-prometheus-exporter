@@ -8,6 +8,7 @@ PLATFORMS := linux/amd64,linux/arm64
 # Setup buildx for multi-architecture builds
 buildx-setup:
 	docker buildx create --use --name multi-arch-builder || true
+	docker run --privileged --rm tonistiigi/binfmt --install all
 
 # Login to Docker Hub
 login:
